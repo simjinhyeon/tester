@@ -10,7 +10,7 @@ public class BoardService {
 
     @Autowired
     private BoardRepository boardRepository;
-    //test
+    //testeee
     public void write(Board board) {
 
         boardRepository.save(board);
